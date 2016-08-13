@@ -1,0 +1,107 @@
+body{background-color: #FFFFFF;}
+
+h1 {color:#2EB8B8; font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; front-size:20px; text-align:center;}
+
+p{color:normal; font-family:Verdana, Geneva, sans-serif; font-size:12; text-align:center;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color:normal;
+     font-family:Verdana, Geneva, sans-serif;
+      font-size:12;
+    	text-align:center;
+    display:inline-block;
+    width:60px;
+    background-color: #4DFFB8;
+}
+
+img.logo {
+	display: block;
+	margin-left : auto;
+	margin-right : auto;
+	}
+	
+
+table{
+padding:20px 20px 20px 20px;
+}
+
+table, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	background-color:#FFFFFF;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	color:normal;
+	 font-family:Verdana, Geneva, sans-serif; 
+	 font-size:12;
+	 
+	
+	}
+th {
+
+border: 1px solid black;
+	border-collapse: collapse;
+	background-color:#85FFFF;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	color:normal;
+	 font-family:Verdana, Geneva, sans-serif; 
+	 font-size:12;
+	 
+
+}
+
+
+
+tr.alt td {
+    background-color: #E6E6E6;
+	width:100px;
+	height:100px;
+
+}
+tr.price td {
+	width:100px;
+	height:100px;
+}
+
+#priceList{
+
+	float:left;
+	margin-left:auto;
+	margin-right:30px;
+	margin-bottom:auto;
+	margin-top:auto;
+	border: 2px solid black;
+	border-radius: 15px;
+	background-color: #4DFFB8;
+	padding:20px 20px 20px 20px;
+	
+	
+
+	}
+
+#makeAnOrder{
+	
+	float:right;
+	margin-right:auto;
+	margin-left:30px;
+	margin-bottom:auto;
+	margin-top:auto;
+	border: 2px solid black;
+	border-radius: 15px;
+	background-color: #4DFFB8;
+	padding: 20px:
+
+	}
+textarea{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+

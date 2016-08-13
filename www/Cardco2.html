@@ -1,0 +1,92 @@
+<html>
+<head>
+<title>Business Card Web page</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<!--Taken form the lecture slides for validation. I'm still unsure of what this does.-->
+<link rel="stylesheet" type="text/css" href="../styles/Table.css">
+</head>
+<body>
+<ul>
+	<li><a href="Cardco1.html">Home</a></li>
+	<li><a href="Cardco2.html">Order</a></li>
+</ul>
+
+<h1>Order Your Cards</h1>
+
+<img class="logo" src="../styles/Cardco.png" alt="Logo">
+
+<div id="all">
+
+	<div id="priceList">
+	<table>
+		<tr class="price">
+		<th>Quality</th>
+		<th>Price per 100</th>
+		<th>Images</th>
+		<th>Colour Printing</th>
+		<th>Basic text</th>
+		</tr>
+		<tr class="price">
+		<td>Basic</td>
+		<td>£10</td>
+		<td><img src="../styles/cross.png"width="10"></td>
+		<td><img src="../styles/cross.png"width="10"></td>
+		<td><img src="../styles/tick2.png"width="10"></td>
+		</tr>
+		<tr class="alt">
+		<td>Medium</td>
+		<td>£15</td>
+		<td><img src="../styles/cross.png"width="10"></td>
+		<td><img src="../styles/tick2.png"width="10"></td>
+		<td><img src="../styles/tick2.png"width="10"></td>
+		</tr>
+			<tr class="price">
+		<td>High</td>
+		<td>£20</td>
+		<td><img src="../styles/tick2.png"width="10"></td>
+		<td><img src="../styles/tick2.png"width="10"></td>
+		<td><img src="../styles/tick2.png"width="10"></td>
+		</tr>
+	</table>
+	</div>
+	
+	<div id=makeAnOrder>
+	<form>
+		<p>Company Name: <input type="text" name="Company name" /></p>
+		<p>Delivery Address: <input type="text" name="Delivery Address" /><p>
+		<p>Billing Address: <input type="Text" name="Billing Address" /><p>
+		<p>Number of cards you wish to order: 
+			<select name"Number of cards">
+				<option value="100">100</option>
+				<option value="200">200</option>
+				<option value="500">500</option>
+				<option value="1000">1000</option>
+			</select>
+			<table>
+			<tr>
+			<td rowspan="2">Quality:</td> 
+			<td>Basic</td>
+			<td>Medium</td>
+			<td>High</td>	
+			</tr>
+			<tr>
+			<td><input type="radio" name="Quality" value="Basic"></td>
+			<td><input type="radio" name="Quality" value="Medium"></td> 
+			<td><input type="radio" name="Quality" value="High"></td>
+			</tr>
+			</table>
+		<p>Text on the card: <input type="text" name="Text on the card" /></p>
+		<p>Card Details i.e colour, images if applicable.</p>
+			<textarea name="Card Details" rows="20" cols="60">
+				Write you details here.
+			</textarea>
+		<p><input type="submit" value=Submit></p>
+	</form>
+	</div>
+
+ 
+</div>
+	
+
+</body>
+</html>
